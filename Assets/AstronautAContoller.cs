@@ -57,6 +57,11 @@ public class AstronautAContoller : MonoBehaviour
         Move();
     }
 
+    void LateUpdate()
+    {
+        _mainCamera.transform.position = transform.position + new Vector3(0, 5, -3.5f);
+    }
+
     public void Move() {
                 // set target speed based on move speed, sprint speed and if sprint is pressed
         float targetSpeed = 5.0f;
