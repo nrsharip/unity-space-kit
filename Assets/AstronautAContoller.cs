@@ -59,7 +59,7 @@ public class AstronautAContoller : MonoBehaviour
 
     void LateUpdate()
     {
-        _mainCamera.transform.position = transform.position + new Vector3(0, 5, -3.5f);
+        _mainCamera.transform.position = transform.position + new Vector3(0, 2, -2f);
     }
 
     public void Move() {
