@@ -19,13 +19,17 @@ public class AstronautAContoller : MonoBehaviour
     private bool _hasAnimator;
 
     private Vector2 _move;
+    private Vector2 _look;
+    private bool _jump;
+    private bool _sprint;
+    private bool _fire;
+
     private float _speed;
     private float _animationBlend;
     private float _targetRotation = 0.0f;
     private float _rotationVelocity;
     private float _verticalVelocity = 0.0f;
     private float _terminalVelocity = 53.0f;
-
 
     // animation IDs
     private int _animIDSpeed;
@@ -138,9 +142,25 @@ public class AstronautAContoller : MonoBehaviour
 
     public void OnLook(InputValue value) {
         //Debug.Log($"Look! value = {value.Get<Vector2>().ToString()}");
+
+        _look = value.Get<Vector2>();
     }
 
     public void OnLMB(InputValue value) {
         Debug.Log($"Fire! value = {value.isPressed}");
+
+        _fire = value.isPressed;
+    }
+
+    public void OnSprint(InputValue value) {
+        Debug.Log($"Sprint! value = {value.isPressed}");
+
+        _sprint = value.isPressed;
+    }
+
+    public void OnJump(InputValue value) {
+        Debug.Log($"Jump! value = {value.isPressed}");
+
+        _jump = value.isPressed;
     }
 }

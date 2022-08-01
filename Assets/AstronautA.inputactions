@@ -25,8 +25,26 @@
                 },
                 {
                     "name": "LMB",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "6a06a2b8-d431-4d46-920b-10bfe7f60230",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprint",
+                    "type": "PassThrough",
+                    "id": "59cbf263-e770-4eea-a4b5-af90253a0e19",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "7d933141-8708-4a5d-a49f-3dd81c30d1d5",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -152,6 +170,28 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "LMB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be409ed9-2add-46a9-b6a2-f54a5ad6d2c3",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17adb2be-a416-42a4-99e6-dee7f9633819",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
