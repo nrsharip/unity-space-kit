@@ -371,10 +371,13 @@ namespace StarterAssets
 
         private void OnFootstep(AnimationEvent animationEvent)
         {
+            //Debug.Log("OnFootstep 1 ");
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
+                //Debug.Log("OnFootstep 2");
                 if (FootstepAudioClips.Length > 0)
                 {
+                    //Debug.Log("OnFootstep 3");
                     var index = Random.Range(0, FootstepAudioClips.Length);
                     AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
                 }
