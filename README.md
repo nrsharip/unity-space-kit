@@ -2,7 +2,7 @@
 
 ### Adding 3rd Person Controller
 
-Supply the animator as needed: e.g. [`astronautA.controller`](Assets\StarterAssets\ThirdPersonController\Character\Animations\astronautA.controller)
+Supply the animator as needed: e.g. [`astronautA.controller`](Assets/StarterAssets/ThirdPersonController/Character/Animations/astronautA.controller)
 
 FBX model:
 
