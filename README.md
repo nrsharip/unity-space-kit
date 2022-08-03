@@ -1,6 +1,10 @@
 ## Overview
 
+Try the following link: https://nrsharip.github.io/unity-space-kit/
+
 This is a sandbox project to try out different features of [Unity](https://unity.com/) while developing some game play with the [Space Kit](https://kenney.nl/assets/space-kit), [Survival Kit](https://kenney.nl/assets/survival-kit), [Nature Kit](https://kenney.nl/assets/nature-kit) and [Weapon Pack](https://kenney.nl/assets/weapon-pack) assets.
+
+Also see [Rigifying and Animation](https://github.com/nrsharip/blender-space-kit) repository for the [Space Kit](https://kenney.nl/assets/space-kit) characters.
 
 ## Screenshots
 
