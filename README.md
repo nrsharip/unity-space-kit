@@ -1,3 +1,11 @@
+## Overview
+
+This is a sandbox project to try out different features of [Unity](https://unity.com/) while developing some game play with the [Space Kit](https://kenney.nl/assets/space-kit), [Survival Kit](https://kenney.nl/assets/survival-kit), [Nature Kit](https://kenney.nl/assets/nature-kit) and [Weapon Pack](https://kenney.nl/assets/weapon-pack) assets.
+
+## Screenshots
+
+<img src="docs/run.gif?raw=true" width="100%">
+
 ## Development
 
 ### Adding 3rd Person Controller
